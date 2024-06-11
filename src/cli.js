@@ -1,4 +1,4 @@
-import readlineSync from '../node_modules/.package-lock';
+import readlineSync from 'readline-sync';
 
 export const askNameAndGreet = () => {
     const name = readlineSync.guestion('May I have your name? ');
