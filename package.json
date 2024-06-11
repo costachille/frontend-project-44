@@ -11,8 +11,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "readline-sync": "file:../../../usr/local/lib/node_modules/readline-sync"
-  }
+  "license": "ISC"
 }
