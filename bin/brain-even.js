@@ -1,1 +1,5 @@
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
+#!/usr/bin/env node
+
+import { startEven } from '../src/games/even.js';
+
+startEven();
