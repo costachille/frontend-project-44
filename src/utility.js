@@ -3,4 +3,26 @@ const getRandomNumber = (min, max) => {
     return number;
 };
 
-export { getRandomNumber };
+const randomEquation = (num1, num2) => {
+    const arrOfSymbols = ['+', '-', '*'];
+    const randomSymbol = arrOfSymbols[Math.floor(Math.random() * arrOfSymbols.length)];
+
+    if (randomSymbol === '+') {
+        return {
+            equation: `${num1} + ${num2}`,
+            result: `${num1} + ${num2}`,
+        };
+    } if (randomSymbol === '-') {
+        return {
+            equation: `${num1} - ${num2}`,
+            result: `${num1} - ${num2}`,
+        };
+    } if (randomSymbol === '*') {
+        return {
+            equation: `${num1} * ${num2}`,
+            result: `${num1} * ${num2}`,
+        };
+    }
+};
+
+export { getRandomNumber, randomEquation };
