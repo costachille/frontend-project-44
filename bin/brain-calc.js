@@ -1,13 +1,5 @@
-import gameEngine from '../src/gameEngine.js';
-import { getRandomNumber, randomEquation } from '../src/utility.js';
+#!/usr/bin/env node
 
-const rule = 'What is the result of the expression?';
+import startCalc from '../src/games/calc.js';
 
-const getQuestionAndAnswer = () => {
-    const equation = randomEquation(getRandomNumber(0, 100), getRandomNumber(0, 100));
-    return [equation.equation, equation.result];
-};
-
-export default () => {
-    gameEngine(rule, getQuestionAndAnswer);
-};
+startCalc();
