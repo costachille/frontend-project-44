@@ -12,12 +12,15 @@ const randomEquation = (num1, num2) => {
             equation: `${num1} + ${num2}`,
             result: `${num1 + num2}`,
         };
-    } if (randomSymbol === '-') {
+    } 
+    
+    if (randomSymbol === '-') {
         return {
             equation: `${num1} - ${num2}`,
             result: `${num1 - num2}`,
         };
-    } 
+    }
+    
     return {
             equation: `${num1} * ${num2}`,
             result: `${num1 * num2}`,
