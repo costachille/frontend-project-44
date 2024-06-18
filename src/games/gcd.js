@@ -1,5 +1,5 @@
-import gameEngine from "../gameEngine";
-import { getRandomNumber } from "../utility";
+import gameEngine from "../gameEngine.js";
+import { getRandomNumber } from "../utility.js";
 
 const ruleOfTheGame = 'Find the greatest common divisor of given numbers.';
 
