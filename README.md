@@ -36,3 +36,7 @@ npm link
 ##### Asciinema for running brain-calc game:
 
 [![asciicast](https://asciinema.org/a/HszWmS2pzSQ2WFZ7jvk4DqhbU.svg)](https://asciinema.org/a/HszWmS2pzSQ2WFZ7jvk4DqhbU)
+
+##### Asciinema for running brain-gcd game:
+
+[![asciicast](https://asciinema.org/a/Lh67WBd6SfnncGWFrLZJhLVT5.svg)](https://asciinema.org/a/Lh67WBd6SfnncGWFrLZJhLVT5)
