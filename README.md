@@ -40,3 +40,7 @@ npm link
 ##### Asciinema for running brain-gcd game:
 
 [![asciicast](https://asciinema.org/a/Lh67WBd6SfnncGWFrLZJhLVT5.svg)](https://asciinema.org/a/Lh67WBd6SfnncGWFrLZJhLVT5)
+
+##### Asciinema for running brain-progression game:
+
+[![asciicast](https://asciinema.org/a/iBQzSVEnj8AibwoWwy5dSUPfR.svg)](https://asciinema.org/a/iBQzSVEnj8AibwoWwy5dSUPfR)
