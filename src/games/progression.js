@@ -9,7 +9,7 @@ const getProgression = (startProgression, stepProgression) => {
     const progressions = [];
     for (let i = 0; i < progressionLength; i += 1) {
         const value = startProgression + stepProgression * i;
-        progressions.push(value);        
+        progressions.push(value);     
     }
     return progressions;
 };
