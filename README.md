@@ -44,3 +44,7 @@ npm link
 ##### Asciinema for running brain-progression game:
 
 [![asciicast](https://asciinema.org/a/iBQzSVEnj8AibwoWwy5dSUPfR.svg)](https://asciinema.org/a/iBQzSVEnj8AibwoWwy5dSUPfR)
+
+##### Asciinema for running brain-prime game:
+
+[![asciicast](https://asciinema.org/a/Gjnf4jLzEe6Oc3RIt6czdJjYl.svg)](https://asciinema.org/a/Gjnf4jLzEe6Oc3RIt6czdJjYl)
