@@ -24,7 +24,7 @@ const getQuestionAndAnswer = () => {
   const hiddenLastNumber = progressionLength - 1;
   const indexOfHiddenNumber = getRandomNumber(hiddenFirstNumber, hiddenLastNumber);
   const answer = String(progression[indexOfHiddenNumber]);
-    progression[indexOfHiddenNumber] = '..';
+  progression[indexOfHiddenNumber] = '..';
   const question = progression.join(' ');
   return [question, answer];
 };
