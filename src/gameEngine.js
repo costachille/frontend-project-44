@@ -6,7 +6,7 @@ const greeting = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 
- return userName;
+  return userName;
 };
 
 export default (rule, getQuestionAndAnswer) => {
@@ -20,7 +20,7 @@ export default (rule, getQuestionAndAnswer) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-  if (correctAnswer !== userAnswer) {
+    if (correctAnswer !== userAnswer) {
       console.log(`"${userAnswer}" is wrong answer.\nCorrect answer was "${correctAnswer}".`);
       console.log(`Let's try again, ${userName}!`);
       return;
