@@ -11,11 +11,11 @@ const isPrime = (number) => {
   let divider = 2;
 
   while (divider <= (number / 2)) {
-  if (number % divider === 0) {
-            return false;
+    if (number % divider === 0) {
+      return false;
     }
-      divider += 1;
-    }
+    divider += 1;
+  }
 
   return true;
 };
