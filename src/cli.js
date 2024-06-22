@@ -6,4 +6,4 @@ function askNameAndGreet() {
   console.log(`Hello, ${name}!`);
 }
 
-export { askNameAndGreet as default };
+export default { askNameAndGreet };
